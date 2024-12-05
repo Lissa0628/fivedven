@@ -24,7 +24,7 @@ jobs:
               body: JSON.stringify({
                 chat_id: chatId,
                 text: message,
-                parse_mode: "HTML" //добавил для HTML форматирования
+                parse_mode: "HTML"
               })
             });
             if (!response.ok) {
